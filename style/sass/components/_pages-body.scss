@@ -34,7 +34,7 @@
     }
   }
   .header-links a.change-bg {
-    background-color: $main-hover;
+    background-color: rgba($color: #fff, $alpha: 0.102);
   }
   .openBtn i {
     color: $main-color;

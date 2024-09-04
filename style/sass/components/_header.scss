@@ -11,11 +11,7 @@ header {
   transition: all ease-in-out 0.2s;
 }
 
-html[dir="ltr"]{
-  .header-links a{
-    background-color: $main-hover;
-  }
-}
+
 // .fixed-header {
 //   padding: 10px 0;
 //   .logo img {
@@ -52,7 +48,7 @@ html[dir="ltr"]{
   a {
     width: 60px;
     height: 37px;
-    background-color: $main-color;
+    background-color: rgba($color: #fff, $alpha: 0.102);
     display: flex;
     border-radius: 19px;
     align-items: center;
@@ -76,32 +72,32 @@ html[dir="ltr"]{
 }
 
 
-html[dir="ltr"] {
-  .blur-header {
-    .header-links a {
-      background-color: $main-color;
-      &:hover {
-        background-color: $main-hover;
-      }
-    }
-  }
+// html[dir="ltr"] {
+//   .blur-header {
+//     .header-links a {
+//       background-color: $main-color;
+//       &:hover {
+//         background-color: $main-hover;
+//       }
+//     }
+//   }
 
-}
+// }
 
 
-html[dir="ltr"]{
-   .blur-header .header-links {
-  .change-bg {
-    background-color: $main-hover;
-  }
-}
+// html[dir="ltr"]{
+//    .blur-header .header-links {
+//   .change-bg {
+//     background-color: $main-hover;
+//   }
+// }
 
-}
-  .header-links {
-  .change-bg {
-    background-color: $main-hover;
-  }
-}
+// }
+//   .header-links {
+//   .change-bg {
+//     background-color: $main-hover;
+//   }
+// }
 
 .links-bars-holder,
 .logo {
@@ -138,6 +134,9 @@ html[dir="ltr"]{
   .logo-dark {
     opacity: 0;
     visibility: hidden;
+  }
+  .header-links a {
+    background-color: $main-color;
   }
 }
 
@@ -337,10 +336,6 @@ html[dir="ltr"]{
   .header-links a {
     width: 65px;
     height: 35px;
-    background-color: $main-hover;
-    &:hover {
-      opacity: 0.8;
-    }
   }
   .header-links a .google {
     font-size: 19px;
@@ -374,6 +369,6 @@ html[dir="ltr"]{
     }
   }
   .blur-header .header-links a.change-bg{
-    background-color: $main-hover;
+    background-color: rgba($color: #fff, $alpha: 0.102);
   }
 }

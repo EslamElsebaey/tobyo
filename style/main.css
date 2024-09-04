@@ -950,10 +950,6 @@ header {
   transition: all ease-in-out 0.2s;
 }
 
-html[dir=ltr] .header-links a {
-  background-color: #3babfa;
-}
-
 .fixed-header {
   padding: 10px 0;
 }
@@ -983,7 +979,7 @@ html[dir=ltr] .header-links a {
 .header-links a {
   width: 60px;
   height: 37px;
-  background-color: #1d75eb;
+  background-color: rgba(255, 255, 255, 0.102);
   display: flex;
   border-radius: 19px;
   align-items: center;
@@ -1002,21 +998,6 @@ html[dir=ltr] .header-links a {
 }
 .header-links a .apple {
   font-size: 26px;
-}
-
-html[dir=ltr] .blur-header .header-links a {
-  background-color: #1d75eb;
-}
-html[dir=ltr] .blur-header .header-links a:hover {
-  background-color: #3babfa;
-}
-
-html[dir=ltr] .blur-header .header-links .change-bg {
-  background-color: #3babfa;
-}
-
-.header-links .change-bg {
-  background-color: #3babfa;
 }
 
 .links-bars-holder,
@@ -1052,6 +1033,9 @@ html[dir=ltr] .blur-header .header-links .change-bg {
 .blur-header .logo-dark {
   opacity: 0;
   visibility: hidden;
+}
+.blur-header .header-links a {
+  background-color: #1d75eb;
 }
 
 .header-content {
@@ -1214,10 +1198,6 @@ html[dir=ltr] .blur-header .header-links .change-bg {
   .header-links a {
     width: 65px;
     height: 35px;
-    background-color: #3babfa;
-  }
-  .header-links a:hover {
-    opacity: 0.8;
   }
   .header-links a .google {
     font-size: 19px;
@@ -1246,7 +1226,7 @@ html[dir=ltr] .blur-header .header-links .change-bg {
     background-color: #1d75eb;
   }
   .blur-header .header-links a.change-bg {
-    background-color: #3babfa;
+    background-color: rgba(255, 255, 255, 0.102);
   }
 }
 .mainBanner {
@@ -2078,7 +2058,7 @@ footer {
   background-color: #3babfa;
 }
 .pages-body .header-links a.change-bg {
-  background-color: #3babfa;
+  background-color: rgba(255, 255, 255, 0.102);
 }
 .pages-body .openBtn i {
   color: #1d75eb;
