@@ -11,6 +11,11 @@ header {
   transition: all ease-in-out 0.2s;
 }
 
+html[dir="ltr"]{
+  .header-links a{
+    background-color: $main-hover;
+  }
+}
 // .fixed-header {
 //   padding: 10px 0;
 //   .logo img {

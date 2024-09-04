@@ -950,6 +950,10 @@ header {
   transition: all ease-in-out 0.2s;
 }
 
+html[dir=ltr] .header-links a {
+  background-color: #3babfa;
+}
+
 .fixed-header {
   padding: 10px 0;
 }
