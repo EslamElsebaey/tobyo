@@ -1037,6 +1037,9 @@ header {
 .blur-header .header-links a {
   background-color: #1d75eb;
 }
+.blur-header .header-links a:hover {
+  background-color: #3babfa;
+}
 
 .header-content {
   display: flex;

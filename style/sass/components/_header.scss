@@ -137,6 +137,9 @@ header {
   }
   .header-links a {
     background-color: $main-color;
+    &:hover{
+      background-color: $main-hover;
+    }
   }
 }
 
